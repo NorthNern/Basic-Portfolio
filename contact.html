@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	
+  <title>Adam McNerney</title>
+<!--   <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+<!-- REMOVE THIS COMMENT if want to make it from scratch -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<div class=headerName>
+			<h1> Adam McNerney </h1>
+		</div>
+		<div class=headerLinks>
+			<div class=headerButtonLeft>
+				<a href="index.html" class=headerButtonText>About</a>
+			</div>
+			<div class=headerButtonMiddle>
+				<a href="portfolio.html" class=headerButtonText>Portfolio</a>
+			</div>
+			<div class=headerButtonRight>
+				<a href="contact.html" class=headerButtonText>Contact</a>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<!-- <div style="clear: both; display:block;"></div> -->
+	</header>
+
+	<div class=mainContainer>
+		<h2>Contact</h2>
+		<form action="contact.php" method="post">
+			<!-- CONTACT FORM NOT DO ANYTHING FOR NOW.  Add contact.php once learned php basics. -->
+			<p>Name</p>
+			<input class="smallEntryField" type="text" name="cf_name"><br>
+			<p>Email</p>
+			<!-- add function for cf_name etc once learned how -->
+			<input class="smallEntryField" type ="text" name="cf_email"><br>
+			<p>Message</p>
+			<textarea class="largeEntryField" name="cf_message"></textarea><br>
+			<input class="contactButton" type="submit" value=Submit>
+		</form>
+		<div style="clear: both;"></div>
+	</div>
+	<div class=connectContainer>
+		<h3>Connect With Me</h3>
+		<a href="http://www.github.com" target="_blank"><img class=connectImage src="assets/images/github.png" alt="GitHub Profile"></a>
+		<a href="http://www.linkedin.com" target="_blank"><img class=connectImage src="assets/images/linkedin.png" alt="LinkedIn Profile"></a>
+		<a href="http://www.stackoverflow.com" target="_blank"><img class=connectImage src="assets/images/stackoverflow.png" alt="StackOverflow Profile"></a>
+	</div>
+	<div style="clear: both;"></div>
+	<footer>
+	<!-- figure out how to lock footer in place -->
+		&copy; Copyright 2016 Adam McNerney
+	</footer>
+</div>
+</body>	
+</html>

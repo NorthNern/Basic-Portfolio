@@ -1,0 +1,221 @@
+/*color:#ffffff = white background
+Main content border color: color:#dddddd
+Teal color (used for headings and backgrounds): color:#4aaaa5
+#777777 = other text gray
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
+
+
+body {
+  background: url(assets/images/gray_jean.png);
+  /*figure out why background image not loading*/
+  background-color: lightgray;
+}
+
+header {
+  background-color:#ffffff;
+  border-bottom: 2px solid #cccccc;
+  height:90px;
+}
+
+footer {
+  text-decoration:none;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding-top:40px;
+  color:#777777;
+  font-weight:bold;
+  background-color:#666666;
+  height:50px;
+  font-size:80%;
+  text-align:center;
+  border-top: 10px solid #4aaaa5;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size:150%;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size:150%;
+  color:#4aaaa5;
+  padding-bottom:15px;
+  border-bottom: 4px solid #cccccc;
+}
+
+h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size:120%;
+  color:#4aaaa5;
+  padding-bottom:15px;
+  border-bottom: 2px solid #cccccc;
+}
+
+img {float:left;
+
+}
+
+p {float:left;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color:#777777;
+}
+
+#wrapper {
+  min-width:1280px;
+  /* to accomodate 960px content + 160px margin on neach side.  However, is this necessary, or better way to keep blocks from 'falling down' when window resized? */ 
+}
+.headerName {
+  margin-left:160px;
+  background-color:#4aaaa5;
+  color:white;
+  display: inline-block;
+  float:left;
+  text-align:center;
+  height:90px;
+  width:250px;
+  /*padding:*/
+}
+
+.headerLinks {
+  color:#777777;
+  background-color:#ffffff;
+  display:inline-block;
+  float:left;
+  position:relative;
+  left:440px;
+  height:90px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.headerButtonLeft {
+  padding-top:30px;
+  float:left;
+  display: inline-block;
+  text-align:center;
+  width:89px;
+  height:60px;
+  border-right:1px solid #cccccc;
+}
+
+.headerButtonMiddle {
+  padding-top:30px;
+  float:left;
+  display: inline-block;
+  text-align:center;
+  width:88px;
+  height:60px;
+  border-left:1px solid #cccccc;
+  border-right:1px solid #cccccc;
+}
+
+.headerButtonRight {
+  padding-top:30px;
+  float:left;
+  display: inline-block;
+  text-align:center;
+  width:89px;
+  height:60px;
+  border-left:1px solid #cccccc;
+}
+
+.headerButtonText {
+  text-decoration:none;
+  color:#777777;
+}
+
+.mainContainer {
+  margin-top:50px;
+  margin-left:160px;
+  margin-bottom:50px;
+  padding-top:10px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  float:left;
+  background-color:#ffffff;
+  width:610px; 
+  overflow:hidden;
+}
+
+#profilePicture {
+  float:left;
+  width:250px;
+  margin-right:20px;
+}
+
+.connectContainer {
+  margin-top:50px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  background-color:#ffffff;
+  float:left;
+  width:230px;
+  position:relative;
+  left:40px;
+  text-align:center;
+  color:#4aaaa5;
+}
+
+.connectImage {
+padding: 10px;
+width: 55px;
+}
+
+.smallEntryField {
+  width:100%;
+}
+
+.largeEntryField {
+  width:100%;
+  height:200px;
+}
+
+.contactButton {
+  margin-top:20px;
+  width:100px;
+  height:50px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color:#ffffff;
+  font-size:100%;
+  background-color:#4aaaa5;
+}
+
+.portfolioContainerLeft {
+  position:relative;
+  float:left;
+  width:290px;
+  height:145px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.portfolioContainerRight {
+  position:relative;
+  float:right;
+  width:290px;
+  height:145px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.portfolioPicture {
+  width:100%;
+}
+
+.portfolioText {
+  position:absolute;
+  left:0px;
+  bottom:10px;
+  height:30px;
+  width:100%;
+  padding-top:10px;
+  background-color: #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color:#ffffff;
+  z-index:100;
+  text-align:center;
+}
