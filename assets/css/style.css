@@ -8,9 +8,8 @@ For all other fonts use font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-
 
 
 body {
-  background: url(assets/images/gray_jean.png);
-  /*figure out why background image not loading*/
-  background-color: lightgray;
+  background-image: url("gray_jean.png");
+/*  background-color: lightgray;*/
 }
 
 header {
